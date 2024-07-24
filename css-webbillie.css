@@ -1,0 +1,273 @@
+/*CSS billie eilish WEBSITE en españa*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  font-family: 'MATROSKA', sans-serif;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+html {
+  font-family: Inter;
+}
+
+b {
+  font-weight: bold;
+} 
+
+.horizontal-list {
+    list-style-type: none; 
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  
+.horizontal-list li {
+    display: inline-block; 
+    margin-right: 20px; 
+  }
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.navlink {
+  color: #8BC3DE;
+  text-decoration: none;
+}
+
+.menu {
+  background-color: #132644; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.herosection {
+  background-image: url(recursos/fondogif.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: matroska;
+  font-size: 48px;
+  color: #E1FF67;
+  text-align: center;
+}
+
+h4 {
+  font-family: inter;
+  font-weight: regular;
+  font-size: 18px;
+  color: #EBEBE1;
+  text-align: center;
+}
+
+.texthero {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.btn {
+  background-color: #0100FC;
+  border-style: none;
+  border-radius: 20px;
+  color: #E1FF67;
+  padding: 10px;
+  max-width: fit-content;
+  align-self: center;
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sectionalbums{
+  background-color: #8BC3DE;
+  padding: 30px;
+  text-align: center;
+}
+
+h2{
+  font-family: inter;
+  font-size: 32px;
+  font-weight: bold;
+  color: #132644;
+  text-align: center;
+  padding: 20px;
+}
+
+.imgalbums {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.sectiongira {
+  background-image: url(recursos/FONDOGIRASECTION.png);
+  background-image: no-repeat;
+  background-image: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-family: matroska;
+  color: #E1FF67;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer {
+  background-color: #E1FF67;
+}
+
+h5 {
+  color: #132644;
+  font-family: inter;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.comunidad {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 3rem;
+}
+
+.input-email {
+  background-color: #EBEBE1;
+  font-family: inter;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 0.5rem;
+  border-color: #8BC3DE;
+  border-style: solid;
+  width: 100%;
+}
+
+::placeholder {
+  color: #8BC3DE;
+}
+
+::placeholder:active {
+  border-width: 1rem;
+  border-color: #0100FC;
+}
+
+.brand-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 30px;
+}
+
+.textbrand {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: bold;
+  color: #132644;
+}
+
+.footer-end {
+  font-family: inter;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  color: #132644;
+}
+.footer-end:hover {
+  text-decoration: underline;
+}
+
+.comunidad-page {
+  padding: 30px;
+}
+
+.text-comunidad {
+  font-size: 16px;
+  text-align: center;
+  color: #132644;
+}
+
+.formulario-comunidad {
+  display: flex;
+  justify-content: center;
+}
+
+.container-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.button-input{
+  display: flex;
+  gap: 1rem;
+}
+
+.second-container{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
